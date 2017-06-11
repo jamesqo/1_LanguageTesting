@@ -39,7 +39,7 @@ public abstract class GraywaterAdapter<T, VH extends RecyclerView.ViewHolder, MT
 	/**
 	 * The T list for adapter items.
 	 */
-	@NonNull("foo", "bar")
+	@NonNull("foo")
 	protected final List<T> mItems = new ArrayList<>();
 
 	/**
